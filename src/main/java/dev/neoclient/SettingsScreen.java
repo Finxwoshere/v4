@@ -84,7 +84,7 @@ public class SettingsScreen extends Screen {
             cycleInt(10, "Panel opacity", new int[]{0, 80, 140, 200}, () -> c.bgOpacity, v -> c.bgOpacity = v);
             cycleInt(11, "Lyric offset", new int[]{-1000, -500, 0, 500, 1000}, () -> c.lyricOffsetMs, v -> c.lyricOffsetMs = v);
             toggle(12, "Floating lyrics", () -> c.floatingLyrics, v -> c.floatingLyrics = v);
-            TextFieldWidget id = new TextFieldWidget(contentX(), panelY() + panelHeight() - 83, contentWidth(), 20, Text.literal("Spotify Client ID"));
+            TextFieldWidget id = new TextFieldWidget(textRenderer, contentX(), panelY() + panelHeight() - 83, contentWidth(), 20, Text.literal("Spotify Client ID"));
             id.setMaxLength(64); id.setPlaceholder(Text.literal("Paste Spotify Client ID")); id.setText(c.spotifyClientId);
             id.setChangedListener(s -> c.spotifyClientId = s.trim()); addDrawableChild(id);
             boolean connected = !c.refreshToken.isEmpty();

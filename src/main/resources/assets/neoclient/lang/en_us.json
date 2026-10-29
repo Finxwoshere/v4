@@ -1,0 +1,18 @@
+{
+  "key.neoclient.zoom": "Zoom (hold)",
+  "key.neoclient.menu": "Open NeoClient menu",
+  "key.neoclient.freecam": "Toggle Freecam",
+  "key.neoclient.freelook": "Freelook (hold or toggle)",
+  "key.category.neoclient.keys": "NeoClient",
+  "key.neoclient.toggle.info": "Toggle Info HUD",
+  "key.neoclient.toggle.coords": "Toggle Coordinates",
+  "key.neoclient.toggle.keystrokes": "Toggle Keystrokes",
+  "key.neoclient.toggle.armor": "Toggle Armor HUD",
+  "key.neoclient.toggle.potions": "Toggle Potion HUD",
+  "key.neoclient.toggle.crosshair": "Toggle Custom Crosshair",
+  "key.neoclient.toggle.fullbright": "Toggle Fullbright",
+  "key.neoclient.toggle.nobobbing": "Toggle No Bobbing",
+  "key.neoclient.toggle.nohurt": "Toggle No Hurt Camera",
+  "key.neoclient.toggle.spotify": "Toggle Spotify HUD",
+  "key.neoclient.toggle.donut": "Toggle Donut Tracker"
+}

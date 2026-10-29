@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "neoclient",
+  "version": "${version}",
+  "name": "NeoClient",
+  "description": "Visual client features (zoom, fullbright, HUD, tint...) plus a Spotify HUD with cover art, artist and synced lyrics.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["neoclient.mixins.json"],
+  "entrypoints": { "client": ["dev.neoclient.NeoClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

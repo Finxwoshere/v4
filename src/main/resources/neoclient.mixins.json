@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "dev.neoclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["EntityMixin", "MouseMixin", "GameRendererMixin", "InGameHudMixin", "ViewmodelMixin", "PlayerListHudMixin", "ScoreboardEntryMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
+
+
